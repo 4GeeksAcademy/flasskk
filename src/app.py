@@ -64,7 +64,7 @@ if st.button("🔍 Predecir"):
     prediction = model.predict(features)[0]
     st.success(f"Predicción del precio futuro: **{prediction:.2f}**")
 
-# Extra: Gráfico (opcional)
+# Gráfico
 if st.checkbox("Ejemplo de evolución histórica"):
     # Simulación de datos
     df = pd.DataFrame({
