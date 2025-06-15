@@ -5,7 +5,7 @@ import numpy as np
 import joblib
 
 # Cargar modelo
-model = joblib.load("/workspaces/flasskk/models/modelo_gold.pkl")
+model = joblib.load("../models/modelo_gold.pkl")
 
 # Interfaz
 st.set_page_config(page_title="Predicción del Precio del Oro", layout="centered")
